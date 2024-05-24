@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: aopdemo
+
+server:
+  port: 8989
+  servlet:
+    context-path: /app
