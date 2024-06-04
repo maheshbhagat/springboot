@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: master-api-handling
+
+server:
+  port: 8989
+
+management:
+  server:
+    port: 9990
+
+
+
+httpmethods:
+  retrieveResource: https://api.freeapi.app/api/v1/kitchen-sink/http-methods/get
+  createResource: https://api.freeapi.app/api/v1/kitchen-sink/http-methods/post
+  updateResource: https://api.freeapi.app/api/v1/kitchen-sink/http-methods/put
+  partiallyUpdateResource: https://api.freeapi.app/api/v1/kitchen-sink/http-methods/patch
+  deleteResource: https://api.freeapi.app/api/v1/kitchen-sink/http-methods/delete
+
+statuscodes:
+  allStatusCodeApi: https://api.freeapi.app/api/v1/kitchen-sink/status-codes
+  specificStatusCodeApi: https://api.freeapi.app/api/v1/kitchen-sink/status-codes/{statusCode}
