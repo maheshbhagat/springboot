@@ -21,3 +21,10 @@ httpmethods:
 statuscodes:
   allStatusCodeApi: https://api.freeapi.app/api/v1/kitchen-sink/status-codes
   specificStatusCodeApi: https://api.freeapi.app/api/v1/kitchen-sink/status-codes/{statusCode}
+
+headers:
+  headerInfoApi: https://api.freeapi.app/api/v1/kitchen-sink/request/headers
+  clientIpAddressApi: https://api.freeapi.app/api/v1/kitchen-sink/request/ip
+  userAgentApi: https://api.freeapi.app/api/v1/kitchen-sink/request/user-agent
+  pathVariableApi: https://api.freeapi.app/api/v1/kitchen-sink/request/path-variable/{pathVariable}
+  queryParamApi: https://api.freeapi.app/api/v1/kitchen-sink/request/query-parameter
