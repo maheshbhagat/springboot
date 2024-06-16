@@ -28,3 +28,20 @@ headers:
   userAgentApi: https://api.freeapi.app/api/v1/kitchen-sink/request/user-agent
   pathVariableApi: https://api.freeapi.app/api/v1/kitchen-sink/request/path-variable/{pathVariable}
   queryParamApi: https://api.freeapi.app/api/v1/kitchen-sink/request/query-parameter
+
+response:
+  headersApi: https://api.freeapi.app/api/v1/kitchen-sink/response/headers
+  cachingApi: https://api.freeapi.app/api/v1/kitchen-sink/response/cache/{timeToLive}/{cacheResponseDirective}
+  htmlCompressionApi: https://api.freeapi.app/api/v1/kitchen-sink/response/html
+  xmlCompressionApi: https://api.freeapi.app/api/v1/kitchen-sink/response/xml
+  gzipCompressionApi: https://api.freeapi.app/api/v1/kitchen-sink/response/gzip
+  brotliCompressionApi: https://api.freeapi.app/api/v1/kitchen-sink/response/brotli
+  getCookiesApi: https://api.freeapi.app/api/v1/kitchen-sink/cookies/get
+  setCookiesApi: https://api.freeapi.app/api/v1/kitchen-sink/cookies/set
+  removeCookiesApi: https://api.freeapi.app/api/v1/kitchen-sink/cookies/remove
+  redirectUrlApi: https://api.freeapi.app/api/v1/kitchen-sink/redirect/to
+  jpegDownloadApi: https://api.freeapi.app/api/v1/kitchen-sink/image/jpeg
+  jpgDownloadApi: https://api.freeapi.app/api/v1/kitchen-sink/image/jpg
+  pngDownloadApi: https://api.freeapi.app/api/v1/kitchen-sink/image/png
+  webpDownloadApi: https://api.freeapi.app/api/v1/kitchen-sink/image/webp
+  svgDownloadApi: https://api.freeapi.app/api/v1/kitchen-sink/image/svg
